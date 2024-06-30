@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录</title>
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/css.css">
+    <link rel="stylesheet" href="./css/login1.css">
+</head>
+<body>
+    <div class="shell">
+        <div class="shell-main">
+            <div class="shell-main-nav">
+                <div class="logo">
+                    <img src="./image/logo.jpg" alt="">
+                    <span>山海经</span>
+                </div>
+                <ul>
+                    <li><a href="./shanhai.html">观山海</a></li>
+                    <li><a href="./shanshui2.html">山水</a></li>
+                    <li><a href="./shenzhi.html">神祗</a></li>
+                    <li><a href="./yaoshou.html">妖兽</a></li>
+                    <li><a href="./Login.html">登录</a></li>
+                    <div class="nav-box"></div>
+                </ul>
+            </div>
+        </div>
+        <form onsubmit="return false">
+            <div class="form-item">
+                <label>用户名</label>
+                <div class="input-wrapper">
+                    <input type="text" id="username"  autocapitalize="off" />
+                </div>
+            </div>
+            <div class="form-item">
+                <label>密码</label>
+                <div class="input-wrapper">
+                    <input type="password" id="password" autocapitalize="off"  />
+                    <button type="button" id="eyeball">
+                        <div class="eye"></div>
+                    </button>
+                    <div id="beam"></div>
+                </div>
+            </div>
+            <button id="submit">登录</button>
+        </form>
+        <div class="shell-main-footer">
+            <span>山海经</span>
+        </div>
+    </div>
+    <script src="./js/loginscript.js"></script>
+</body>
+</html>
